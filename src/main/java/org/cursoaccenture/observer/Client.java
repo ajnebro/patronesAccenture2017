@@ -10,7 +10,8 @@ public class Client {
     observable.addObserver(observer2);
     System.out.println("Number of observers: " + observable.countObservers()) ;
     observable.setData("Hello") ;
-
+    
+    
     DataStoreObserver observer3 = new DataStoreObserver("Observer 3") ;
     observable.addObserver(observer3);
     System.out.println("Number of observers: " + observable.countObservers()) ;
